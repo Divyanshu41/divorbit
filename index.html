@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Divyanshu Kumar Ray — Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Personal portfolio of [Your Name] — developer, designer, creator." />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="brand">Divyanshu Kumar Ray</h1>
+            <nav class="nav" aria-label="Main navigation">
+                <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+            <!-- Theme toggle -->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" data-index="0">
+            <div class="hero-deco" aria-hidden="true"></div>
+            <div class="container hero-grid">
+                <div class="hero-card card">
+                    <img src="assets/avatar.svg" alt="Divyanshu avatar" class="avatar" />
+                    <div class="hero-text">
+                        <h2>Hi, I'm <span class="accent">Divyanshu Kumar Ray</span>.</h2>
+                        <p class="muted typewriter" data-phrases='["B.Tech (CSE) student at LNCT","Frontend enthusiast","Building web apps & deploying them"]' aria-hidden="false"></p>
+                        <p>B.Tech (CSE) student at LNCT University, Bhopal (2023–2027). Currently learning Java and exploring Frontend (React, Netlify, GitHub integration). I build practical web projects and enjoy deploying them.</p>
+                        <p>
+                            <a class="btn btn-cta" href="#projects">See my work</a>
+                            <a class="btn" href="resume.pdf" download="Divyanshu-Kumar-Ray-Resume.pdf" style="margin-left:10px">Download CV</a>
+                        </p>
+                        <p class="socials">
+                            <a class="social-link" href="https://github.com/Divyanshu41" target="_blank" rel="noopener" aria-label="GitHub">
+                                <img src="assets/github.svg" alt="GitHub" class="icon">
+                            </a>
+                            <a class="social-link" href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <img src="assets/linkedin.svg" alt="LinkedIn" class="icon">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container card" data-index="1">
+            <h3>About me</h3>
+            <p>I'm Divyanshu Kumar Ray, a B.Tech (CSE) student at LNCT University, Bhopal (2023–2027). I'm focused on learning Java and frontend technologies like React. I enjoy building real-world projects such as queue management systems and phenology
+                visualizations, and deploying them on Netlify.</p>
+        </section>
+
+        <section id="education" class="container card" data-index="2">
+            <h3>Education</h3>
+            <p><strong>B.Tech</strong> — Computer Science & Engineering, LNCT University, Bhopal (2023 — expected 2027)</p>
+            <p><strong>12th (JAC Board)</strong> — 82%</p>
+        </section>
+
+        <section id="projects" class="container" data-index="3">
+            <h3>Projects</h3>
+            <div class="grid">
+                <article class="project" data-index="0">
+                    <h4>Smart Hospital Token System</h4>
+                    <p>A web-based system for patient queue and token management with an admin dashboard, token issuance, and live queue display.</p>
+                    <p>Tech: HTML, CSS, JavaScript (or React). Deployed on Netlify.</p>
+                    <p><a href="#" target="_blank" rel="noopener">Live demo</a> • <a href="https://github.com/Divyanshu41/Smart-Hospital-Token-System" target="_blank" rel="noopener">GitHub Repo</a></p>
+                </article>
+
+                <article class="project" data-index="1">
+                    <h4>Bloomwatch (Phenology Visualization)</h4>
+                    <p>Interactive visualization of plant blooming events using satellite data. Features time slider, filters, and clustering on a map.</p>
+                    <p>Tech: React, Plotly.js, mapping libraries.</p>
+                    <p><a href="#" target="_blank" rel="noopener">Project demo</a> • <a href="https://github.com/Divyanshu41/Bloomwatch" target="_blank" rel="noopener">GitHub Repo</a></p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="skills" class="container card" data-index="4">
+            <h3>Skills</h3>
+            <ul class="skills">
+                <li>Java (learning basics)</li>
+                <li>HTML &amp; CSS</li>
+                <li>JavaScript</li>
+                <li>React (basics)</li>
+                <li>Git, GitHub, Netlify</li>
+                <li>Debugging React/npm & Deployment</li>
+            </ul>
+        </section>
+
+        <section id="certificates" class="container card" data-index="5">
+            <h3>Certificates</h3>
+            <div class="cert-grid">
+                <div class="cert">
+                    <div class="cert-thumb">PDF</div>
+                    <h4>Introduction to IoT</h4>
+                    <p>Issuer: (see certificate) — Year: (see certificate)</p>
+                    <p><a class="btn cert-view" href="#" data-src="certificates/introduction-to-iot.pdf">View</a> <a class="btn" href="certificates/introduction-to-iot.pdf" download>Download</a></p>
+                </div>
+
+                <div class="cert">
+                    <div class="cert-thumb">PDF</div>
+                    <h4>Dibu SB Certificate</h4>
+                    <p>Issuer: (see certificate) — Year: (see certificate)</p>
+                    <p><a class="btn cert-view" href="#" data-src="certificates/dibu-sb-cer.pdf">View</a> <a class="btn" href="certificates/dibu-sb-cer.pdf" download>Download</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container card" data-index="6">
+            <h3>Contact</h3>
+            <p>If you want to collaborate or see more, email me at <a href="mailto:mrdivyanshu154@gmail.com">mrdivyanshu154@gmail.com</a> or connect on <a href="#">LinkedIn</a>.</p>
+            <p><strong>Career goal:</strong> Looking for opportunities to grow as a Java & Frontend Developer through projects, internships, and collaborations.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small>&copy; <span id="year"></span> Divyanshu Kumar Ray. Built with ❤️</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Modal for certificate preview -->
+    <div id="cert-modal" class="modal" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <button id="cert-close" class="modal-close" aria-label="Close">✕</button>
+            <iframe id="cert-frame" src="" frameborder="0" style="width:100%;height:80vh"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
